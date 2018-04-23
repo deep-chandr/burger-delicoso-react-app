@@ -1,0 +1,107 @@
+
+
+.burgerBuilder {
+  width: 100vw;
+  height: 50vh;
+  background: #0ac
+    repeating-conic-gradient(
+      darkorange 0 15deg,
+      orange 0 30deg,
+      darkgoldenrod 0 45deg,
+      orange 0 60deg
+    );
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 0; 
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 40px 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.burger {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+}
+
+.breadBottom {
+	  background: radial-gradient(#ddb55d, #df872d);
+  box-shadow: inset 0 0 5vmin 0 #a7551d;
+  width: 40vmax;
+  position: relative;
+  box-shadow: 0 0 12vmin #333;
+  height: 10vmin;
+  border-radius: 15% 15% 40vmin 40vmin;
+
+}
+
+.breadTop {
+	  background: radial-gradient(#ddb55d, #df872d);
+  box-shadow: inset 0 0 5vmin 0 #a7551d;
+  width: 40vmax;
+  position: relative;
+  box-shadow: 0 0 12vmin #333;
+  height: 15vmin;
+  border-radius: 50vmin 50vmin 5% 5%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.sesame {
+  background: rgb(229, 217, 162);
+  width: 1.5vmin;
+  height: 0.7vmin;
+  border-radius: 50%;
+}
+
+.sesame:nth-child(1) {
+  margin-top: 3vmin;
+  margin-left: 10vmin;
+}
+
+.sesame:nth-child(2) {
+  margin-top: 2vmin;
+}
+
+.sesame:nth-child(3) {
+  margin-top: 5vmin;
+}
+
+.sesame:nth-child(4) {
+  margin-top: 2vmin;
+}
+
+.sesame:nth-child(5) {
+  margin-top: 3vmin;
+}
+
+.sesame:nth-child(6) {
+  margin-top: 2vmin;
+}
+
+.sesame:nth-child(7) {
+  margin-top: 4vmin;
+}
+
+.sesame:nth-child(8) {
+  background: transparent;
+  margin-left: 5vmin;
+}

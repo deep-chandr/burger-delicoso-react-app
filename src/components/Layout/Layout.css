@@ -1,0 +1,16 @@
+@font-face {
+    font-family: headerFont;
+    src: url("./VarianeScript.ttf");
+}
+
+.Layout{
+	background-image: url('./bg1.jpg');
+	min-height: 100vh;
+}
+
+.title {
+	cursor: pointer;
+	background-color: rgb(139,69,19);
+	font-family: headerFont;
+	font-size: 200%;
+}

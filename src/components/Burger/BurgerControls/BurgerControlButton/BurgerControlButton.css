@@ -1,0 +1,10 @@
+.BurgerControlButton{
+	background: radial-gradient(#ddb55d, #df872d);
+	text-align: center;
+	margin: 0 10%;
+	border-radius: 5px;
+}
+.buttonStyle{
+	margin:12px;
+	color:white;
+}
